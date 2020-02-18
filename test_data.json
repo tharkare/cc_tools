@@ -1,6 +1,7 @@
 import json
 
-  "platform": [
+{
+    "platform": [
     {
       "launch year": "1989",
       "name": "Atari Lynx"
