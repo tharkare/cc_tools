@@ -1,0 +1,19 @@
+import json
+
+  "platform": [
+    {
+      "launch year": "1989",
+      "name": "Atari Lynx"
+    },
+    {
+      "launch year": "1989",
+      "name" : "GameBoy"
+    },
+    {
+      "launch year" : "2003",
+      "name": "Steam"
+    }
+    ],
+  "title" : ["Chip's Challenge", "Chip's Challenge", "Chip's Challenge 2"],
+  "year" : ["1989", "1991", "2015"]
+}
