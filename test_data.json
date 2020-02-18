@@ -1,17 +1,15 @@
-import json
-
 {
     "platform": [
     {
-      "launch year": "1989",
+      "launch_year": "1989",
       "name": "Atari Lynx"
     },
     {
-      "launch year": "1989",
+      "launch_year": "1989",
       "name" : "GameBoy"
     },
     {
-      "launch year" : "2003",
+      "launch_year" : "2003",
       "name": "Steam"
     }
     ],
