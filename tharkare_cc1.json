@@ -1,0 +1,21 @@
+[
+  {
+    "level_number" : -1,
+    "time" : -1,
+    "num_chips" : -1,
+    "upper_layer" : [
+      1, 1, 1, 1,
+      0, 0, 108, 0,
+      0, 1, 0, 0,
+      1, 0, 34, 1
+    ],
+    "optional_fields" : [
+      {
+        "field_type" : "hint"
+      },
+      {
+        "field_type" : "monster"
+      }
+    ]
+  }
+]
