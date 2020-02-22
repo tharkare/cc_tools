@@ -324,7 +324,7 @@ class CCLevel:
 
     def __str__(self):
         return_str = ""
-        return_str += "  Level #"+str(self.level_number)+"\n"
+        return_str += "  Level # = "+str(self.level_number)+"\n"
         return_str += "    Time Limit = "+str(self.time)+"\n"
         return_str += "    Chip Count = "+str(self.num_chips)+"\n"
         for field in self.optional_fields:
