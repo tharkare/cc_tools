@@ -10,6 +10,8 @@ with open(json_file_name, 'r') as reader:
 
 #Convert JSON data to CCLevelPack
 new_level_pack = cc_classes.CCLevelPack()
+
+#looping through json data for all fields except optional fields
 for x in range(0, len(game_json_data)):
     new_level_next = game_json_data[x]
     new_level = cc_classes.CCLevel()
@@ -18,6 +20,7 @@ for x in range(0, len(game_json_data)):
     new_level.num_chips = new_level_next["num_chips"]
     new_level.upper_layer = new_level_next["upper_layer"]
 
+#looping through json data for optional fields
     for json_field in new_level_next["optional_fields"]:
         field_type = json_field["field_type"]
         if field_type == "hint":
