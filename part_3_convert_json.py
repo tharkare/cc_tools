@@ -7,9 +7,10 @@ import json
 json_file_name = "tharkare_cc1.json"
 with open(json_file_name, 'r') as reader:
     game_json_data = json.load(reader)
+
 #Convert JSON data to CCLevelPack
 new_level_pack = cc_classes.CCLevelPack()
-for x in range(0, 2):
+for x in range(0, len(game_json_data)):
     new_level_next = game_json_data[x]
     new_level = cc_classes.CCLevel()
     new_level.level_number = new_level_next["level_number"]
@@ -40,6 +41,7 @@ for x in range(0, 2):
     new_level_pack.add_level(new_level)
 
 #Save converted data to DAT file
+
 cc_dat_utils.write_cc_level_pack_to_dat(new_level_pack, "data/tharkare_cc1.dat")
 test_dat = cc_dat_utils.make_cc_level_pack_from_dat("data/tharkare_cc1.dat")
 print(test_dat)
