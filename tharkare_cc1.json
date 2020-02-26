@@ -47,7 +47,7 @@
       },
       {
         "field_type" : "password",
-        "password" : [216, 216, 216, 216]
+        "password" : [205, 216, 215, 210]
       },
       {
         "field_type" : "hint",
@@ -109,7 +109,7 @@
       },
       {
         "field_type" : "password",
-        "password" : [218, 216, 218, 216]
+        "password" : [201, 223, 222, 221]
       },
       {
         "field_type" : "hint",
